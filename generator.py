@@ -23,22 +23,17 @@ class MalwareGenerator:
     def obfuscate(self):
         insert = self.sampleJunk + self.sampleWait
         obfArray = []
-        if (insert > 0):
-            junkTemp = self.sampleJunk
-            waitTemp = self.sampleWait
-            while (waitTemp > 0 and junkTemp > 0):
-                flip = random.randint(0,1)
-                if flip == 0:
-                    obfArray.append(f"wait({self.sampleSeconds});")
-                    waitTemp -= 1
-                if flip == 1:
-                    obfArray.append("math();")
-                    junkTemp -= 1
+        junkCount = self.sampleJunk
+        waitCount = self.sampleWait
+        waitString = f"wait({self.sampleSeconds});"
+        junkString = "math();"
+        obfArray = [waitString] * waitCount + [junkString] * junkCount
+        random.shuffle(obfArray)
         return obfArray
     
     def copyTemplate(self):
         path = Path(__file__).parent.resolve()
-        newFile = str(path) + f"/{self.sampleType}_{self.sampleCount}.cpp"
+        newFile = str(path) + f"/{self.sampleType}_{self.sampleTrack+1}.cpp"
         shutil.copyfile(str(path) + "/malware.cpp", newFile)
         return newFile
 
@@ -47,9 +42,9 @@ class MalwareGenerator:
         filename = self.copyTemplate()
         payload = []
         if self.sampleType == 'malicious':
-            payload = self.malActions
+            payload = self.malActions.copy()
         if self.sampleType == 'nonmalicious':
-            payload = self.cleanActions
+            payload = self.cleanActions.copy()
         with open(filename, 'a') as f:
             f.write("\n\nint main(int argc, char **argv){\n")
             while payload:
@@ -60,7 +55,7 @@ class MalwareGenerator:
             f.write("}")
 
     def start(self):
-        while self.sampleTrack != self.sampleCount:
+        while self.sampleTrack < self.sampleCount:
             self.writeToFile()
             self.sampleTrack += 1
 
