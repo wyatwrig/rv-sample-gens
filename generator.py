@@ -15,7 +15,7 @@ class MalwareGenerator:
         self.sampleWait = wait
 
         self.cleanActions = ["openPort();", "readFile();", "writeFile();", "deleteFile();"] # reverse to function as stack
-        self.malActions = ["createService();", "changeProcName();", "openPort();", "ransomFiles();", "clearLogs();"]
+        self.malActions = ["createService();", "changeProcName();", "openPort();", "ransomFiles();"] # removed clearLogs(); to use syslog
         self.malActions.reverse()
         self.cleanActions.reverse()
 
