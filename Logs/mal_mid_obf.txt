@@ -1,0 +1,37 @@
+
+Key Report
+===============================================
+# date time key success exe auid event
+===============================================
+1. 09/03/23 18:14:04 read_event yes /morello/llvm/bin/clang-13 0 629
+2. 09/03/23 18:14:05 read_event yes /morello/llvm/bin/lld 0 630
+3. 09/03/23 18:14:05 write_event yes /morello/llvm/bin/lld 0 631
+4. 09/03/23 18:14:05 read_event yes /morello/llvm/bin/lld 0 632
+5. 09/03/23 18:14:05 write_event yes /morello/llvm/bin/lld 0 633
+6. 09/03/23 18:14:05 write_event yes /morello/llvm/bin/lld 0 634
+7. 09/03/23 18:14:14 persistence_event yes /morello/shared_folder/mal_mid_obf 0 635
+8. 09/03/23 18:14:14 socket_event yes /usr/bin/systemctl 0 636
+9. 09/03/23 18:14:15 socket_event yes /usr/bin/systemctl 0 663
+10. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 664
+11. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 665
+12. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 666
+13. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 671
+14. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 672
+15. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 673
+16. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 678
+17. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 679
+18. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 680
+19. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 685
+20. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 686
+21. 09/03/23 18:14:15 socket_event yes /usr/lib/systemd/systemd -1 687
+22. 09/03/23 18:14:16 socket_event yes /usr/lib/systemd/systemd -1 692
+23. 09/03/23 18:14:16 socket_event yes /usr/lib/systemd/systemd -1 693
+24. 09/03/23 18:14:16 socket_event yes /usr/lib/systemd/systemd -1 694
+25. 09/03/23 18:14:35 socket_event yes /morello/shared_folder/mal_mid_obf 0 699
+26. 09/03/23 18:14:45 read_event yes /morello/shared_folder/mal_mid_obf 0 700
+27. 09/03/23 18:14:45 write_event yes /morello/shared_folder/mal_mid_obf 0 701
+28. 09/03/23 18:14:45 write_event yes /morello/shared_folder/mal_mid_obf 0 702
+29. 09/03/23 18:14:45 write_event yes /morello/shared_folder/mal_mid_obf 0 703
+30. 09/03/23 18:15:08 write_event yes /usr/bin/bash 0 704
+31. 09/03/23 18:15:08 socket_event yes /usr/sbin/aureport 0 705
+32. 09/03/23 18:15:08 socket_event yes /usr/sbin/aureport 0 706

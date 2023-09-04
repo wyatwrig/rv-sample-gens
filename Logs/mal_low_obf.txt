@@ -1,0 +1,31 @@
+
+Key Report
+===============================================
+# date time key success exe auid event
+===============================================
+1. 09/03/23 18:10:56 persistence_event yes /morello/shared_folder/mal_low_obf 0 528
+2. 09/03/23 18:10:56 socket_event yes /usr/bin/systemctl 0 529
+3. 09/03/23 18:10:56 socket_event yes /usr/bin/systemctl 0 556
+4. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 557
+5. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 558
+6. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 559
+7. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 564
+8. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 565
+9. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 566
+10. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 571
+11. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 572
+12. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 573
+13. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 578
+14. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 579
+15. 09/03/23 18:10:56 socket_event yes /usr/lib/systemd/systemd -1 580
+16. 09/03/23 18:10:57 socket_event yes /usr/lib/systemd/systemd -1 585
+17. 09/03/23 18:10:57 socket_event yes /usr/lib/systemd/systemd -1 586
+18. 09/03/23 18:10:57 socket_event yes /usr/lib/systemd/systemd -1 587
+19. 09/03/23 18:11:06 socket_event yes /morello/shared_folder/mal_low_obf 0 592
+20. 09/03/23 18:11:11 read_event yes /morello/shared_folder/mal_low_obf 0 593
+21. 09/03/23 18:11:11 write_event yes /morello/shared_folder/mal_low_obf 0 594
+22. 09/03/23 18:11:11 write_event yes /morello/shared_folder/mal_low_obf 0 595
+23. 09/03/23 18:11:11 write_event yes /morello/shared_folder/mal_low_obf 0 596
+24. 09/03/23 18:11:34 write_event yes /usr/bin/bash 0 597
+25. 09/03/23 18:11:34 socket_event yes /usr/sbin/aureport 0 598
+26. 09/03/23 18:11:34 socket_event yes /usr/sbin/aureport 0 599

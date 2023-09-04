@@ -1,0 +1,25 @@
+
+Key Report
+===============================================
+# date time key success exe auid event
+===============================================
+1. 09/03/23 18:16:03 read_event yes /morello/llvm/bin/clang-13 0 716
+2. 09/03/23 18:16:04 read_event yes /morello/llvm/bin/lld 0 717
+3. 09/03/23 18:16:04 write_event yes /morello/llvm/bin/lld 0 718
+4. 09/03/23 18:16:04 read_event yes /morello/llvm/bin/lld 0 719
+5. 09/03/23 18:16:04 write_event yes /morello/llvm/bin/lld 0 720
+6. 09/03/23 18:16:04 write_event yes /morello/llvm/bin/lld 0 721
+7. 09/03/23 18:16:13 socket_event yes /morello/shared_folder/nonmal_high_obf 0 722
+8. 09/03/23 18:16:33 read_event yes /morello/shared_folder/nonmal_high_obf 0 723
+9. 09/03/23 18:16:53 write_event yes /morello/shared_folder/nonmal_high_obf 0 724
+10. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron -1 725
+11. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron -1 727
+12. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron 0 730
+13. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron 0 732
+14. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron 0 733
+15. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron 0 734
+16. 09/03/23 18:17:01 socket_event yes /usr/sbin/cron 0 736
+17. 09/03/23 18:17:13 write_event yes /morello/shared_folder/nonmal_high_obf 0 738
+18. 09/03/23 18:17:39 write_event yes /usr/bin/bash 0 739
+19. 09/03/23 18:17:39 socket_event yes /usr/sbin/aureport 0 740
+20. 09/03/23 18:17:39 socket_event yes /usr/sbin/aureport 0 741
